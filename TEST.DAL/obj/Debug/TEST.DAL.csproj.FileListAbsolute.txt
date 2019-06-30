@@ -1,0 +1,9 @@
+F:\VendorManagement\Main\TEST.DAL\bin\Debug\TEST.DAL.dll
+F:\VendorManagement\Main\TEST.DAL\bin\Debug\TEST.DAL.pdb
+F:\VendorManagement\Main\TEST.DAL\obj\Debug\TEST.DAL.dll
+F:\VendorManagement\Main\TEST.DAL\obj\Debug\TEST.DAL.pdb
+F:\VendorManagement\Main\TEST.DAL\obj\Debug\TEST.DAL.csprojResolveAssemblyReference.cache
+F:\VendorManagement\TestProject\TestProject\TestProject\TestProject\TEST.DAL\bin\Debug\TEST.DAL.dll
+F:\VendorManagement\TestProject\TestProject\TestProject\TestProject\TEST.DAL\bin\Debug\TEST.DAL.pdb
+F:\VendorManagement\TestProject\TestProject\TestProject\TestProject\TEST.DAL\obj\Debug\TEST.DAL.dll
+F:\VendorManagement\TestProject\TestProject\TestProject\TestProject\TEST.DAL\obj\Debug\TEST.DAL.pdb
