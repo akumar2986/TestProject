@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <Customer CustomerId="1001" Name="Chandler" Email="admin@gmail.com" Phone="123455" CustomerType="vegetarian">
+    <ProductType ProductTypeName="Seasonal Food">
+    </ProductType>
+    <ProductType ProductTypeName="House Hold">
+    </ProductType>
+  </Customer>
+  <Customer CustomerId="1002" Name="Toby" Email="abc@gmail.com" Phone="123455" CustomerType="vegan">
+    <ProductType ProductTypeName="Seasonal Food">
+    </ProductType>
+    <ProductType ProductTypeName="House Hold">
+    </ProductType>
+  </Customer>
+  <Customer CustomerId="192905947" Name="rahul" Email="rahul@gmail.com" Phone="97808946565" CustomerType="vegetarian">
+    <ProductType ProductTypeName="Fruit" />
+  </Customer>
+  <Customer CustomerId="1576484826" Name="rohit" Email="rohit21@gmail.com" Phone="9708923695" CustomerType="vegetarian">
+    <ProductType ProductTypeName="Fruit" />
+  </Customer>
+  <Customer CustomerId="1468211918" Name="Woakes" Email="Woakes@gmail.com" Phone="74764646" CustomerType="vegetarian">
+    <ProductType ProductTypeName="Recipes" />
+    <ProductType ProductTypeName="Fruit" />
+  </Customer>
+  <Customer CustomerId="1017041028" Name="jacksparrow" Email="jack@gmail.com" Phone="867674744" CustomerType="vegetarian">
+    <ProductType ProductTypeName="Seasonal Food" />
+    <ProductType ProductTypeName="Recipes" />
+    <ProductType ProductTypeName="Fruit" />
+  </Customer>
+  <Customer CustomerId="636496986" Name="pant" Email="pant21@gmail.com" Phone="9685757575" CustomerType="vegetarian">
+    <ProductType ProductTypeName="Seasonal Food" />
+    <ProductType ProductTypeName="Recipes" />
+  </Customer>
+</root>

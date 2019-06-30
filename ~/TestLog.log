@@ -1,0 +1,241 @@
+
+
+2019-06-29 19:26:52,778 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-29 20:02:16,880 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-29 20:14:32,236 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-29 20:17:19,587 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-29 20:17:40,958 
+TextLogger.Logger                         [(null)] 
+>> TEST.DAL.Entities.Customer GetCustomerById(System.Nullable`1[System.Int32])
+System.InvalidOperationException: There is an error in XML document (1, 1). ---> System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlTextReader.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderList1.Read4_ArrayOfCustomer()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(Stream stream)
+   at TEST.DAL.Serializers.XmlSerializer.Deserialize[T](String str) in f:\VendorManagement\Main\TEST.DAL\Serializers\XmlSerializer.cs:line 41
+   at TEST.DAL.TESTSql.GetCustomerById(Int32 Id) in f:\VendorManagement\Main\TEST.DAL\DealSql.cs:line 56
+   at TEST.BLL.CustomerBll.GetCustomerById(Nullable`1 ID) in f:\VendorManagement\Main\Test\TEST.BLL\CustomerBll.cs:line 47
+
+
+2019-06-29 20:22:26,147 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-29 20:32:01,260 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-29 20:34:53,313 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-29 20:35:37,496 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-29 20:48:42,213 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-29 20:55:50,170 
+TextLogger.Logger                         [(null)] 
+>> Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at TEST.Controllers.CustomerController.AddEditCustomer(CustomerVM customerVM) in f:\VendorManagement\Main\Test\Controllers\CustomerController.cs:line 123
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+
+
+2019-06-29 20:58:57,168 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-29 21:07:41,994 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-29 21:14:35,553 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 15:20:45,172 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 15:35:00,626 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 15:38:07,302 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 15:41:45,412 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 15:45:37,156 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 15:58:40,635 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 16:08:16,169 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 16:10:54,487 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 16:13:44,154 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 16:16:12,901 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 16:16:54,098 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 16:30:32,325 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 16:32:36,161 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 16:36:42,695 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 16:42:43,907 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 16:46:34,769 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 16:53:41,775 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 17:38:33,719 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 17:41:00,829 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 17:48:05,941 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 17:58:22,477 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 18:00:55,205 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 20:24:03,190 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 20:25:47,228 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 20:26:47,543 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 20:27:54,505 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
+
+
+2019-06-30 21:54:55,554 
+TextLogger.Logger                         [(null)] 
+>> Void Configuration(Owin.IAppBuilder)
